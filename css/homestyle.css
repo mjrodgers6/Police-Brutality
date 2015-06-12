@@ -1,0 +1,59 @@
+body {
+  background-image: url(../lives.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  text-align: center;
+  text-shadow:5px 5px 10px black;
+  color:white;
+  font-family: 'Oswald', sans-serif;
+}
+div{
+  width:900px; 
+  margin: auto;
+  margin-top: 20%;
+}
+
+a{
+  font-weight: bolder;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    color: red;
+    font-weight: bolder;
+}
+a:active {
+    color: slategrey;
+}
+
+h2{
+  font-weight: bolder;
+  margin-top: 20%;
+}
+/*
+h1{
+  margin-bottom: 2px;
+  margin-top:80px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+h3{
+  margin: 5px;
+  font-size: 19px;
+}
+span{
+  color:orangered;
+  text-transform: uppercase;
+}

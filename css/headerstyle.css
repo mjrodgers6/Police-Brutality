@@ -1,0 +1,52 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+div.header{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 5px auto;
+}
+a.header{
+	margin:0 40px;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	padding:5px;
+}
+a.header:hover{
+	color:red;
+	border: solid red 2px;
+	margin: 0 38px;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+div.title{
+	text-transform: uppercase;
+	background-image: url(../eyes.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	text-align: center;
+	display: block;
+	height: 342px;
+	margin-top: 50px;
+}
+h1.title{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	position: relative;
+  	top: 33%;
+  	font-size: 625%;
+}
