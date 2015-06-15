@@ -34,10 +34,52 @@ h1{
 	text-align: center;
 	font-size: 50px;
 }
-h2.action{
+h1.action, h2.connect, div.socialicons, h2.hash, h2.send{
 	text-align: center;
 
 }
+
+h1.action {
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+}
+
+h2.hash {
+	border-top: 1px black solid;
+	padding-top: 30px;
+}
+
+div.twitterfeed {
+	float: left;
+	padding-left: 200px;
+	padding-bottom: 50px;
+	padding-right: 20px;
+}
+
+div.facebookfeed {
+	float: left;
+	padding-bottom: 50px;
+}
+
+div.connect, div.socialicons {
+	clear:both;
+}
+
+#emphasis {
+	color: red;
+}
+
+a.tip{
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.tip:hover{
+	color:red;
+}
+
 h3.quote{
 	text-align: center;
 	color:darkslategrey;
